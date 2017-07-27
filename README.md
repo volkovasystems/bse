@@ -1,0 +1,2 @@
+# bse
+Base conversion class.
