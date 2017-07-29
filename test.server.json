@@ -1,0 +1,32 @@
+{
+	"stats": {
+		"suites": 2,
+		"tests": 1,
+		"passes": 1,
+		"pending": 0,
+		"failures": 0,
+		"start": "2017-07-29T00:34:51.727Z",
+		"end": "2017-07-29T00:34:51.736Z",
+		"duration": 9
+	},
+	"tests": [
+		{
+			"title": "should return Base class",
+			"fullTitle": "bse `bse( )` should return Base class",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		}
+	],
+	"pending": [],
+	"failures": [],
+	"passes": [
+		{
+			"title": "should return Base class",
+			"fullTitle": "bse `bse( )` should return Base class",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		}
+	]
+}

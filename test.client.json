@@ -1,0 +1,84 @@
+{
+	"state": {
+		"passed": 1,
+		"failed": 0,
+		"skipped": 0
+	},
+	"start": "2017-07-29T00:34:53.198Z",
+	"end": "2017-07-29T00:35:37.966Z",
+	"capabilities": {
+		"browserName": "chrome",
+		"chromeOptions": {
+			"args": [
+				"disable-gpu",
+				"headless"
+			]
+		},
+		"proxy": null
+	},
+	"host": "127.0.0.1",
+	"port": 4444,
+	"baseUrl": "http://localhost",
+	"framework": "mocha",
+	"mochaOpts": {
+		"timeout": 10000,
+		"ui": "bdd"
+	},
+	"suites": [
+		{
+			"name": "bse",
+			"duration": 0,
+			"start": "2017-07-29T00:35:36.834Z",
+			"tests": [],
+			"hooks": []
+		},
+		{
+			"name": "bse",
+			"duration": 951,
+			"start": "2017-07-29T00:35:36.835Z",
+			"end": "2017-07-29T00:35:37.786Z",
+			"tests": [],
+			"hooks": [
+				{
+					"start": "2017-07-29T00:35:36.836Z",
+					"end": "2017-07-29T00:35:36.836Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "bse",
+					"associatedTest": "should return Base class"
+				},
+				{
+					"start": "2017-07-29T00:35:37.785Z",
+					"end": "2017-07-29T00:35:37.785Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "bse",
+					"associatedTest": "should return Base class"
+				},
+				{
+					"start": "2017-07-29T00:35:37.786Z",
+					"end": "2017-07-29T00:35:37.786Z",
+					"duration": 0,
+					"title": "\"after all\" hook",
+					"associatedSuite": "bse"
+				}
+			]
+		},
+		{
+			"name": "`bse( )`",
+			"duration": 951,
+			"start": "2017-07-29T00:35:36.835Z",
+			"end": "2017-07-29T00:35:37.786Z",
+			"tests": [
+				{
+					"name": "should return Base class",
+					"start": "2017-07-29T00:35:36.835Z",
+					"end": "2017-07-29T00:35:37.784Z",
+					"duration": 949,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		}
+	]
+}
